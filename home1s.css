@@ -1,0 +1,147 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  width: 100%;
+  height: 1080px;
+  position: relative;
+}
+
+.frame .group {
+  position: absolute;
+  width: 157px;
+  height: 96px;
+  top: 613px;
+  left: 720px;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .vector {
+  left: 52px;
+  position: absolute;
+  width: 53px;
+  height: 55px;
+  top: 42px;
+}
+
+.frame .group-2 {
+  position: absolute;
+  width: 160px;
+  height: 96px;
+  top: 613px;
+  left: 1066px;
+}
+
+.frame .img {
+  left: 51px;
+  position: absolute;
+  width: 53px;
+  height: 55px;
+  top: 42px;
+}
+
+.frame .screenshot {
+  position: absolute;
+  width: 463px;
+  height: 430px;
+  top: 174px;
+  left: 753px;
+  object-fit: cover;
+}
+
+.frame .ACC-ROAD-CARE {
+  position: absolute;
+  top: 87px;
+  left: 687px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .span {
+  color: #000000;
+}
+
+.frame .text-wrapper-2 {
+  color: #e51d30;
+}
+
+.frame .overlap-group-wrapper {
+  position: absolute;
+  width: 213px;
+  height: 55px;
+  top: 764px;
+  left: 855px;
+}
+
+.frame .overlap-group {
+  position: relative;
+  width: 211px;
+  height: 55px;
+  background-image: url(https://c.animaapp.com/61CXDTV0/img/rectangle-22.svg);
+  background-size: 100% 100%;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  top: 10px;
+  left: 59px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-wrapper {
+  position: absolute;
+  width: 213px;
+  height: 55px;
+  top: 839px;
+  left: 855px;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  top: 15px;
+  left: 53px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 149px;
+  top: 931px;
+  left: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(217, 217, 217) 60.94%);
+}

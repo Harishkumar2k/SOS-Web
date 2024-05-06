@@ -1,0 +1,111 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.frame .line {
+  position: absolute;
+  width: 1920px;
+  height: 10px;
+  top: 166px;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 149px;
+  top: 931px;
+  left: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(217, 217, 217) 60.94%);
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 1144px;
+  height: 504px;
+  top: 294px;
+  left: 388px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.frame .group {
+  position: absolute;
+  width: 114px;
+  height: 117px;
+  top: 371px;
+  left: 973px;
+  background-color: #cc4545;
+  border-radius: 57px/58.5px;
+}
+
+.frame .gps {
+  position: absolute;
+  width: 86px;
+  height: 88px;
+  top: 10px;
+  left: 13px;
+  object-fit: cover;
+}
+
+.frame .information-of-the {
+  position: absolute;
+  top: 40px;
+  left: 260px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .group-2 {
+  position: absolute;
+  width: 717px;
+  height: 114px;
+  top: 52px;
+  left: 603px;
+}
+
+.frame .ACC-ROAD-CARE {
+  position: absolute;
+  top: 18px;
+  left: 120px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper {
+  color: #000000;
+}
+
+.frame .span {
+  color: #e51d30;
+}
+
+.frame .screenshot {
+  position: absolute;
+  width: 104px;
+  height: 114px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}

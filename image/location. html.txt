@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get User Location</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #location {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Get User Location</h1>
+
+    <p>Click the button below to get your current location:</p>
+    <button onclick="getLocation()">Get Location</button>
+
+    <p>Your location:</p>
+    <div id="location"></div>
+
+    <script>
+        function getLocation() {
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+
+                    var locationElement = document.getElementById("location");
+                    locationElement.innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
+                });
+            } else {
+                var locationElement = document.getElementById("location");
+                locationElement.innerHTML = "Geolocation is not supported by your browser.";
+            }
+        }
+    </script>
+</body>
+</html>

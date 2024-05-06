@@ -1,0 +1,65 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.frame .screenshot {
+  position: absolute;
+  width: 463px;
+  height: 430px;
+  top: 174px;
+  left: 489px;
+  object-fit: cover;
+}
+
+.frame .ACC-ROAD-CARE {
+  position: absolute;
+  top: 87px;
+  left: 423px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper {
+  color: #000000;
+}
+
+.frame .span {
+  color: #e51d30;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 211px;
+  height: 55px;
+  top: 668px;
+  left: 615px;
+  background-color: #e51d30;
+  border-radius: 10px;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 7px;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}

@@ -1,0 +1,243 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 123px;
+  top: 53px;
+  left: 0;
+}
+
+.frame .line {
+  position: absolute;
+  width: 1920px;
+  height: 10px;
+  top: 113px;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .group {
+  position: absolute;
+  width: 717px;
+  height: 114px;
+  top: 0;
+  left: 602px;
+}
+
+.frame .ACC-ROAD-CARE {
+  position: absolute;
+  top: 18px;
+  left: 120px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper {
+  color: #000000;
+}
+
+.frame .span {
+  color: #e51d30;
+}
+
+.frame .screenshot {
+  position: absolute;
+  width: 104px;
+  height: 114px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .rectangle {
+  width: 1920px;
+  height: 149px;
+  top: 931px;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(217, 217, 217) 60.94%);
+  position: absolute;
+  left: 0;
+  border-radius: 20px;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 247px;
+  left: 152px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 947px;
+  height: 181px;
+  top: 338px;
+  left: 523px;
+}
+
+.frame .rectangle-2 {
+  width: 941px;
+  height: 181px;
+  top: 0;
+  background-color: #d9d9d9;
+  position: absolute;
+  left: 0;
+  border-radius: 20px;
+}
+
+.frame .mr-harish-kumar-you {
+  width: 770px;
+  top: 58px;
+  left: 177px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .p {
+  width: 239px;
+  top: 18px;
+  position: absolute;
+  left: 152px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .notification {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 12px;
+  left: 95px;
+  border-radius: 20px;
+  background-image: url(https://c.animaapp.com/ningVPbA/img/---icon-4@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.frame .correct {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 17px;
+  left: 806px;
+  object-fit: cover;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 941px;
+  height: 182px;
+  top: 541px;
+  left: 523px;
+  background-image: url(https://c.animaapp.com/ningVPbA/img/rectangle-16.svg);
+  background-size: 100% 100%;
+}
+
+.frame .ACC-ROAD-CARE-2 {
+  width: 551px;
+  top: 14px;
+  position: absolute;
+  left: 152px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .mr-harish-kumar {
+  width: 500px;
+  top: 59px;
+  left: 78px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-group-2 {
+  position: absolute;
+  width: 941px;
+  height: 175px;
+  top: 744px;
+  left: 523px;
+  background-image: url(https://c.animaapp.com/ningVPbA/img/rectangle-18.svg);
+  background-size: 100% 100%;
+}
+
+.frame .ACC-ROAD-CARE-3 {
+  width: 551px;
+  top: 21px;
+  position: absolute;
+  left: 152px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .congratulation-mr {
+  position: absolute;
+  width: 696px;
+  top: 58px;
+  left: 115px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .notification-2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 15px;
+  left: 95px;
+  border-radius: 20px;
+  background-image: url(https://c.animaapp.com/ningVPbA/img/---icon-4@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}

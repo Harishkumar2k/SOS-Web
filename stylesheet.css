@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-collapse{
+    flex-grow: unset;
+    z-index: 1;
+}
+.navbar-light .navbar-toggler{
+    background: #e51d30;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 35px;
+    font-weight: 500;
+}
+.nav-link.active{
+    background: #e51d30;
+    color: #fff;
+}
+.nav-link:hover{
+    background: #e51d30;
+    color: #fff !important;
+}
+.nav-link:hover a{
+    color: #fff;
+}
+.logo-sec{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+.acc-sos{
+    font-weight: 700;
+    font-size: 50px;
+}
+.acc-sos span{
+    color: #e51d30;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-24{
+    font-size: 34px;
+}
+.fs-35{
+    font-size: 35px;
+}
+.sos-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.sos-btn input{
+    background: #e51d30;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    margin-right: 20px;
+    width: 180px;
+    text-align: center;
+    margin-top: 50px;
+    border:1px solid #000;
+} 
+.bg-grey{
+    background: #ccc;
+    padding: 20px;
+    border-radius: 20px;
+}
+.p.acc-sos {
+    font-weight: 700;
+    font-size: 30px;
+}
+.hor-scroll{
+    height: calc(650px - 26px);
+    overflow-y: auto;
+    padding-right: 15px;
+    width: 100%;
+}
+.card-flex{
+    display: inline-block;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
+.hospital-info{
+
+    /* height:100vh; */
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px #ccc;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.submit-btn{
+    background: #e51d30;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #000;
+}
+.form-control{
+    padding: 10px;
+}
+.form-control:hover{
+    box-shadow: 1px 1px 10px #ccc;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.feedback{
+    margin: 0 auto;
+}
+.feedback h3{
+    font-size:50px; 
+    text-align: center;
+}
+.feedback p{
+    font-size:30px;
+}
+.signup p{
+    font-size:40px; 
+    text-align:center;
+}
+.signup img{
+    text-align: center;
+    margin-left:80px;
+}
+.emer{
+    justify-content: end;
+    display: grid;
+    position: relative;
+    top: -155px;
+    right: 10px;
+}
+.emer.accid{
+    justify-content: end;
+    display: grid;
+    position: relative;
+    top: -275px;
+    right: 10px;
+}
+
+.emer.accid img{
+    width: 70px;
+    background: #cc4545;
+    border-radius: 50%;
+    padding: 0px;
+    
+}
+.bg-grey.h-200{
+    height: 200px;
+}
+.map-hgt{
+    height: 700px;
+}
+.h-320{
+    height: 320px;
+}
+@media (max-width:430px){
+    .navbar-nav{
+        background: #0082e6;
+    }
+    .navbar-nav .nav-item{
+        border-bottom: 1px solid #ccc;
+    }
+    .hor-scroll {
+        height: calc(550px - 26px);
+    }
+    .his.acc-sos{
+        font-size: 30px;
+    }
+    .feedback p{
+        font-size:20px;
+    }
+    .signup p{
+        font-size:30px; 
+    }
+    .signup img{
+        margin-left:130px;
+        width:70px;
+    }
+    .signup form{
+        margin-top:0;
+    }
+    .signup form .input-box {
+        height: 52px;
+        margin: 10px 0;
+    }
+    .bg-grey.h-200 {
+        height: 280px;
+    }
+    .emer {
+        top: -230px;
+        right: -10px;
+    }
+    .emer img{
+        width: 35px;
+    }
+    .p.acc-sos {
+        font-size: 26px;
+    }
+    .map-hgt{
+        height: 400px;
+    }
+    .emer.accid{
+        top: -325px;
+    }
+    .h-320 {
+        height: 420px;
+    }
+    .card-flex {
+        margin-right: 0;
+    }
+    .hospital-info {
+        width: 370px;
+    }
+    textarea{
+        width: 350px !important;
+        border: 1px solid #ccc !important;
+    }
+}

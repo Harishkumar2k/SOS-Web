@@ -1,0 +1,110 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 122px;
+  top: 54px;
+  left: 0;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 1920px;
+  height: 122px;
+  top: 0;
+  left: 0;
+}
+
+.frame .line {
+  position: absolute;
+  width: 1920px;
+  height: 10px;
+  top: 112px;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .screenshot {
+  position: absolute;
+  width: 104px;
+  height: 114px;
+  top: 0;
+  left: 567px;
+  object-fit: cover;
+}
+
+.frame .ACC-ROAD-CARE {
+  position: absolute;
+  top: 17px;
+  left: 687px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper {
+  color: #000000;
+}
+
+.frame .span {
+  color: #e51d30;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 562px;
+  height: 337px;
+  top: 334px;
+  left: 679px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.frame .alarm {
+  position: absolute;
+  width: 148px;
+  height: 142px;
+  top: 64px;
+  left: 207px;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 349px;
+  top: 221px;
+  left: 107px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 149px;
+  top: 931px;
+  left: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(217, 217, 217) 60.94%);
+}

@@ -1,0 +1,164 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 1920px;
+  height: 123px;
+  top: 53px;
+  left: 0;
+}
+
+.frame .line {
+  position: absolute;
+  width: 1920px;
+  height: 10px;
+  top: 113px;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .group {
+  position: absolute;
+  width: 717px;
+  height: 114px;
+  top: 0;
+  left: 602px;
+}
+
+.frame .ACC-ROAD-CARE {
+  position: absolute;
+  top: 18px;
+  left: 120px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper {
+  color: #000000;
+}
+
+.frame .span {
+  color: #e51d30;
+}
+
+.frame .screenshot {
+  position: absolute;
+  width: 104px;
+  height: 114px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 149px;
+  top: 931px;
+  left: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(217, 217, 217) 60.94%);
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 203px;
+  left: 206px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .img {
+  position: absolute;
+  width: 115px;
+  height: 55px;
+  top: -27573px;
+  left: -954px;
+}
+
+.frame .p {
+  position: absolute;
+  width: 546px;
+  top: 420px;
+  left: 687px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .div-2 {
+  width: 444px;
+  top: 552px;
+  left: 738px;
+  position: absolute;
+  height: 81px;
+}
+
+.frame .div-wrapper {
+  width: 181px;
+  top: 0;
+  left: 0;
+  background-image: url(https://c.animaapp.com/VcnOtIio/img/rectangle-5.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  height: 81px;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  top: 22px;
+  left: 55px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .div-wrapper-2 {
+  width: 181px;
+  top: 0;
+  left: 263px;
+  background-image: url(https://c.animaapp.com/VcnOtIio/img/rectangle-5.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  height: 81px;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  top: 20px;
+  left: 69px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}

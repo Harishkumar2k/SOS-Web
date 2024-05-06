@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get User Location with Location Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #location {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Get User Location with Location Name</h1>
+
+    <p>Click the button below to get your current location:</p>
+    <button onclick="getLocation()">Get Location</button>
+
+    <p>Your location:</p>
+    <div id="location"></div>
+
+    <script>
+        function getLocation() {
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+
+                    var locationElement = document.getElementById("location");
+
+                    // Use the Google Maps Geocoding API to get the location name
+                    var geocoder = new google.maps.Geocoder();
+                    var latlng = new google.maps.LatLng(latitude, longitude);
+                    geocoder.geocode({ 'latLng': latlng }, function (results, status) {
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            if (results[1]) {
+                                locationElement.innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude + "<br>Location Name: " + results[1].formatted_address;
+                            }
+                        } else {
+                            locationElement.innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
+                        }
+                    });
+                });
+            } else {
+                var locationElement = document.getElementById("location");
+                locationElement.innerHTML = "Geolocation is not supported by your browser.";
+            }
+        }
+    </script>
+
+    <!-- Include the Google Maps API script with your API key -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+</body>
+</html>

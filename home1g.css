@@ -1,0 +1,31 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Inter:700,800");
+
+
+.round-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50%; /* This makes the button round */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Text color */
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
